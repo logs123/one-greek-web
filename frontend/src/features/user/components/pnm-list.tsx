@@ -164,19 +164,19 @@ const PNMList: React.FC<PNMListProps> = ({ pnms, onPNMInfoOpen, setSelectedPNM, 
                                     <PNMVoteButton
                                         pnmId={pnm.pnm._id}
                                         vote="yes"
-                                        semesterName="Fall 2025"
+                                        semesterName="Spring 2026"
                                         currentVote={pnm.userVote}
                                     />
                                     <PNMVoteButton
                                         pnmId={pnm.pnm._id}
                                         vote="maybe"
-                                        semesterName="Fall 2025"
+                                        semesterName="Spring 2026"
                                         currentVote={pnm.userVote}
                                     />
                                     <PNMVoteButton
                                         pnmId={pnm.pnm._id}
                                         vote="no"
-                                        semesterName="Fall 2025"
+                                        semesterName="Spring 2026"
                                         currentVote={pnm.userVote}
                                     />
                                 </div>
@@ -330,19 +330,19 @@ const PNMList: React.FC<PNMListProps> = ({ pnms, onPNMInfoOpen, setSelectedPNM, 
                                     <PNMVoteButton
                                         pnmId={pnm.pnm._id}
                                         vote="yes"
-                                        semesterName="Fall 2025"
+                                        semesterName="Spring 2026"
                                         currentVote={pnm.finalVote}
                                     />
                                     <PNMVoteButton
                                         pnmId={pnm.pnm._id}
                                         vote="maybe"
-                                        semesterName="Fall 2025"
+                                        semesterName="Spring 2026"
                                         currentVote={pnm.finalVote}
                                     />
                                     <PNMVoteButton
                                         pnmId={pnm.pnm._id}
                                         vote="no"
-                                        semesterName="Fall 2025"
+                                        semesterName="Spring 2026"
                                         currentVote={pnm.finalVote}
                                     />
                                 </div>

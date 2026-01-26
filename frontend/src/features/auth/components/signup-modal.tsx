@@ -179,7 +179,7 @@ const SignupModal: React.FC<SignupModalProps> = ({ signup, organizations, isOpen
                     secondMajor: formData.secondMajor,
                     minor: formData.minor,
                     gpa: formData.gpa,
-                    semester: 'Fall 2025',
+                    semester: 'Spring 2026',
                 },
                 hasAgreedToTerms: formData.hasAgreedToTerms
             }

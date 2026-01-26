@@ -33,7 +33,7 @@ const CreateEventModal: React.FC<CreateEventModalProps> = ({ createEvent, isLoad
             return now;
         })(),
         type: 'Recruitment',
-        semester: 'Fall 2025',
+        semester: 'Spring 2026',
         chapter: `${auth?.chapter}`,
         locationName: '',
         locationAddress: '',

@@ -20,7 +20,7 @@ const RecruitmentRoute = () => {
     const [textMessage, setTextMessage] = useState<string>('');
 
     const { data: pnms = [] } = useGetPNMListQuery(
-        { userId: auth?.id || '', chapterId: auth?.chapter || '', semesterName: 'Fall 2025' },
+        { userId: auth?.id || '', chapterId: auth?.chapter || '', semesterName: 'Spring 2026' },
         { skip: !auth }
     );
 
